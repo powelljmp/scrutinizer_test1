@@ -8,7 +8,7 @@ class ExampleClass
     {}
 
     /**
-     * 
+     *
      * @return string
      */
     public function hello()
