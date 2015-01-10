@@ -1,0 +1,13 @@
+checks:
+    php:
+        code_rating: true
+        duplication: true
+
+
+tools:
+	php_analyzer: true
+	php_code_sniffer:
+		config:
+			standard: PSR2
+		filter:
+			paths: ['src']
