@@ -6,9 +6,9 @@ tools:
     sensiolabs_security_checker: true
     php_code_sniffer:
         config:
-            standard: PSR2 	 	    
-	php_loc:true       
-    php_cpd: true   
+            standard: PSR2
+	php_loc: true
+	php_cpd: true
 
 checks:
     php:
