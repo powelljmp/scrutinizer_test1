@@ -6,14 +6,9 @@ tools:
     sensiolabs_security_checker: true
     php_code_sniffer:
         config:
-            standard: PSR2 	   
-	    
-	php_loc:
-        enabled: true
-        excluded_dirs: [vendor, tests]
-        
-    php_cpd:
-       enabled: true   
+            standard: PSR2 	 	    
+	php_loc:true       
+    php_cpd: true   
 
 checks:
     php:
